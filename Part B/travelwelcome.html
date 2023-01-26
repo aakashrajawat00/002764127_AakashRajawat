@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Website</title>
+    <link rel="icon" type="image/x-icon" href="images.png">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome ON-Board</h1>
+    </header>
+    <nav class="navbar">
+        <div class="logo" >Tickets.COM</div>
+        <ul class="nav-links">        
+            
+            
+            <div class="menu">
+                <li><a href="#safety">Safety Video</a></li>
+                <li ><a href="#">Home</a></li>
+                <li><a href="booking.html">About</a></li>
+                
+                <li><a href="booking.html">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="heading">
+        <h1 class="title">Welcome to Ticket.COM</h1>
+        <p>Find the best rates in town.</p>
+        <button href="/images.png">Book Here!!</button>
+
+    </div>
+
+    <div class="contact" id="contact">
+        <form class="form">
+            <h2>Contact US</h2>
+            <div class="form-example">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+                <label>Email</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+                <label>Contact Number</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+                <label class="Issue">Issue</label>         
+                <input type="text" name="email" id="email" height="200" required >   
+            </div>
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+    <div class="safety-video" id="safety">
+        <center>
+        <h2>Flight Safety Video</h2>
+        
+        <video class="video" width="400" height="250" controls>
+            <source src="safety.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+        </video>
+        <h3>Welcome audio</h3>
+
+
+        <audio controls >
+            <source src="airport.wav" type="audio/ogg">
+            <source src="airport.wav" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </center>
+    </div>
+    <footer>
+        © 2023. All rights reserved.
+    </footer>
+</body>
+</html>
