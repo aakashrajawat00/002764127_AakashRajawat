@@ -1,0 +1,106 @@
+:root{
+    --primary:#0a6ae8;
+    --dark:#121948;
+    --light:white;
+}
+
+body {
+    background-color: #a2d1fc;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:rgb(239, 149, 14);
+    border-radius: 5px;
+    width: 340px;
+    height: 360px;
+    padding: 0px 7px 9px 14px;
+}
+h2{
+    text-align: center;
+    margin: 12px 0 30px;
+}
+.buttons{
+    display: flex;
+   
+}
+#btnadd{
+    
+    user-select: none;
+    cursor: pointer;
+    width: 50px;
+    font-size: 1rem;
+    color:var(--light);
+    background-color: var(--primary);
+    margin: 0px 0px 0 -2px;
+    padding: 11px;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+#btnsubtract{
+    
+    user-select: none;
+    cursor: pointer;
+    width: 50px;
+
+    font-size: 1rem;
+    color:var(--light);
+    background-color: var(--primary);
+    margin: 0 0px 0px 11px;
+    padding: 11px;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+#btnmultiply{
+   
+    user-select: none;
+    cursor: pointer;
+    width: 50px;
+
+    font-size: 1rem;
+    color:var(--light);
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 11px;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+#btndivision{
+   
+    user-select: none;
+    cursor: pointer;
+    width: 50px;
+
+    font-size: 1rem;
+    color:var(--light);
+    background-color: var(--primary);
+    margin: 0px 0px 0px 2px;
+    padding: 11px;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+
+#txtFirstNumber{
+    margin: 7px 0px 5px 11px;
+}
+
+#txtSecondNumber{
+    margin: 7px 0px 5px 11px;
+}
+
+div button{
+    display:inline-block;
+}
+
+#welcome{
+    font-size: 25px;
+    color: rgb(251, 12, 12);
+    margin: -530px -230px 0 0;
+    display: flex;
+    justify-content: center;
+}

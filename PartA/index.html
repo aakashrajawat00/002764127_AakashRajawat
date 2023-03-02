@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <form id="signup" class="form" onclick="myfunction()" action="calculator.html">
+                <h1>Enter Your Details</h1>
+                <div class="form-details">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="Enter username" required>
+                    <small></small>
+                </div>
+    
+                <div class="form-details">
+                    <label for="email" >Email:</label>
+                    <input type="text" name="email" id="email" placeholder="lastname.first@northeastern.edu" required>
+                    <small></small>
+                </div>
+    
+                <div class="form-details">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                    <small></small>
+                </div>
+    
+    
+                <div class="form-details">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required>
+                    <small></small>
+                </div>
+    
+                <div class="form-details">
+                    <input class="btn" type="submit" value="Sign Up" style="background-color: #001e24;color: white;"> 
+                </div>
+            </form>
+        </div>
+    
+     
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
