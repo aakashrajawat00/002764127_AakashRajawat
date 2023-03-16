@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 0;
+  background-color: teal;
+  color: #fff;
+  position: static;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar .logo {
+  font-size: 32px;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li {
+  padding: 5px 14px;
+}
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  color: aquamarine;
+}
+
+.btn-secondary {
+  color: red;
+}
+
+body {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.about {
+  background-color: rgb(8, 202, 224);
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.footer {
+  background-color: teal;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=booking.css.map */

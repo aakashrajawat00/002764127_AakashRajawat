@@ -1,0 +1,49 @@
+@import 'navbar';
+@import 'button';
+@import 'config';
+
+$size: 100%;
+
+body{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0 ;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+
+.about{
+    background-color: rgb(8, 202, 224);
+    padding-top: 10px;
+    color:black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  medium;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.footer {
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

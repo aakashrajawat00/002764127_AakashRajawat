@@ -1,0 +1,23 @@
+%btn{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin: 3px;
+
+    &:hover{
+        transform: scale(.98);
+    }
+
+}
+
+.btn-primary {
+    @extend %btn;
+    color: aquamarine
+
+}
+
+.btn-secondary {
+    @extend %btn;
+    color: red;
+    //background-color: $secondary-color;
+}
