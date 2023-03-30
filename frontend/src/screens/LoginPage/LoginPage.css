@@ -1,0 +1,70 @@
+.loginContainer {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 5px; /* Add rounded corners to the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+}
+
+.form-control {
+  margin-bottom: 15px; /* Increase margin-bottom to add more space between form fields */
+  padding: 10px; /* Add padding to form fields */
+  border-radius: 3px; /* Add rounded corners to form fields */
+  border: 1px solid #ccc; /* Add border to form fields */
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Add margin-bottom to add space between label and form field */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff; /* Add text color to button */
+  transition: all 0.3s ease;
+  padding: 10px 20px; /* Add padding to button */
+  border-radius: 3px; /* Add rounded corners to button */
+  cursor: pointer; /* Add cursor pointer to button */
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  transition: all 0.3s ease;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0069d9;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 3px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #c3e6cb;
+  border-radius: 3px;
+}
